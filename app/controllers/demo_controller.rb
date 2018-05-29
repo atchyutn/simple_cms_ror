@@ -3,8 +3,6 @@ class DemoController < ApplicationController
   layout false 
   
   def index
-    @array = [1,2,3,4]
-    render('hello')
   end
 
   def hello
