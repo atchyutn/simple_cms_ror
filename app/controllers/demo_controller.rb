@@ -8,6 +8,8 @@ class DemoController < ApplicationController
   def hello
     #render('index')
     @array = [1,2,3,4]
+    @id = params[:id].to_i
+    @page = params[:page].to_i
   end
 
   def other_hello
